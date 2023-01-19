@@ -1,35 +1,23 @@
-import { Box, IconButton, Stack } from '@mui/material';
-import Cards from './components/Cards';
+import { Box, Stack } from '@mui/material';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AddCircle from '@mui/icons-material/AddCircle';
+import Body from './components/Body';
 
 function App() {
-
-  const redirect = () => {
-    window.location.href = 'https://github.com/Lualbertohc?tab=repositories';
-};
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      }}
-    >
-      <Stack spacing={6}>
-        <Header />
-        <Cards />
-        <IconButton
-        onClick={redirect}
-        color="secondary"
-        aria-label="repository"
-        size="large">
-          <AddCircle />
-        </IconButton>
-        <Footer />
-      </Stack>
-    </Box>
+      <Box
+        sx=
+        {{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}>
+        <Stack spacing={10}>
+          <Header />
+          <Body />
+          <Footer />
+        </Stack>
+      </Box >
   );
 }
 
