@@ -21,7 +21,7 @@ function SWCard() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
       >
         <Link
-          href="https://github.com/Lualbertohc/wallet-app"
+          href="https://github.com/Lualbertohc/project-starwars-planets-search"
           underline="none">
           <Card sx={{ borderRadius: 5, maxWidth: 345, minHeight: 300 }}>
             <CardActionArea>
