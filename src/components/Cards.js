@@ -11,7 +11,6 @@ import {
 import { Box } from '@mui/system';
 import wallet from '../img/wallet.png';
 import sw from '../img/sw.png';
-import recipe from '../img/recipe.png';
 
 function SWCard() {
   return (
@@ -65,31 +64,6 @@ function SWCard() {
               <Typography variant="body2" color="text.secondary">
                 O "Wallet" é uma planilha financeira cujo o intuito
                 é armazenar gastos de forma fácil
-              </Typography>
-            </CardContent>
-            <CardActions disableSpacing>
-            </CardActions>
-          </Card>
-        </Link>
-        <Link
-          href="https://github.com/Lualbertohc/recipe-app"
-          underline="none">
-          <Card sx={{ borderRadius: 5, maxWidth: 345, minHeight: 300 }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image={recipe}
-                alt="recipe app"
-              />
-            </CardActionArea>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Recipe App
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Com este aplicativo de receitas o usuário poderá explorar
-                receitas baseado em diferentes critérios!
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
