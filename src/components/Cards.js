@@ -20,7 +20,7 @@ function SWCard() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
       >
         <Link
-          href="https://github.com/Lualbertohc/project-starwars-planets-search"
+          href="https://cozy-gumdrop-895a2f.netlify.app/"
           underline="none">
           <Card sx={{ borderRadius: 5, maxWidth: 345, minHeight: 300 }}>
             <CardActionArea>
